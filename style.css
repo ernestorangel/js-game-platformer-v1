@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0px solid red;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#main-background {
+  height: calc(100vh - 80px);
+  background-color: lightskyblue;
+}
+
+.platform {
+  width: 240px;
+  height: 60px;
+
+  position: absolute;
+
+  background-color: maroon;
+}
+
+#plat-1 {
+  bottom: 200px;
+  left: 500px;
+}
+
+#plat-2 {
+  bottom: 120px;
+  left: 900px;
+}
+
+#phase-counter {
+  font-size: 24px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main-character {
+  width: 78px;
+  height: 78px;
+
+  position: absolute;
+
+  bottom: 80px;
+  left: 0px;
+}
+
+#main-floor {
+  height: 80px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: maroon;
+}
